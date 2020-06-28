@@ -1,10 +1,338 @@
-
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>hello word</title>
+	<meta charset="utf-8">
+	<title>DELTAMOVIES</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+	<!-- Link Swiper's CSS -->
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/script.js"></script>
+
+
+	<!-- Demo styles -->
+	<style>
+
+
+
+	</style>
 </head>
 <body>
-<h1>hello word</h1>
-</body>
+	<div class="wrapper">
 
+		<header class="header">
+			<figure class="logo"><a href="index.html"><h2>DELTAMOVIES</h2></figure></a>
+			<nav class="menu">
+				<ul>
+					<li><a href="index.html">Inicio</a></li><li><a href="language.html">Tendencias</a></li>
+					<li><a>Generos</a>
+						<ul>
+							<li><a href="genre.html">Accion</a></li>
+							<li><a href="mostwatched.html">Comedia</a></li>
+							<li><a href="search.html">Drama</a></li>
+							<li><a href="year.html">Terror</a></li>
+						</ul>
+					</li>
+					<li><a href="terms.html">DMCA</a></li>
+				</ul>
+			</nav>
+			<form class="search">
+				<input type="text" id="inputsearch" class="searchfield" placeholder="Search...">
+				<input type="submit" value="" class="searchsubmit">
+			</form>
+
+			<div class="toggle"><img src="img/menu.svg"></div>
+		</header>
+		<!-- Swiper -->
+		<div class="homeslider">
+			<div class="swiper-container">
+
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<img src="images/slider/aves.jpg">
+						<div class="caption">
+							<div class="captioninside">
+								<h3>AVES DE PRESA</h3>
+								<p>Después de separarse de Joker, Harley Quinn y otras tres heroínas </p>
+								<a href="single.html" class="playbutton">Play</a>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<img src="images/slider/aa.jpg">
+						<div class="caption">
+							<div class="captioninside">
+								<h3>La casa de papel: El fenómeno</h3>
+								<p>El documental 'La casa de papel: el fenómeno' trata de reflejar </p>
+								<a href="banner2.html" class="playbutton">Play</a>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<img src="images/slider/fv.jpg">
+						<div class="caption">
+							<div class="captioninside">
+								<h3>6 en la sombra</h3>
+								<p>No se trata de escapar de tu jefe, de tu ex...</p>
+								<a href="banner3.html" class="playbutton">Play</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Add Pagination -->
+				<div class="swiper-pagination"></div>
+			</div>
+		</div>
+
+		<main class="content">
+			<section class="panel">
+				<h2>Peliculas Recientes</h2>
+				<div class="recentslider">
+					<div class="swiper-container">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide"><a href="https://storage.googleapis.com/iron-fountain-266419.appspot.com/GxyJez1oYgm.mp4"><img src="images/747.jpg"><h3 class="hometitle">Bulletproof 2</h3></a></div>
+							<div class="swiper-slide"><a href="https://storage.googleapis.com/emerald-entity-265717.appspot.com/tt7286456_LAT_HD.mp4"><img src="images/joke.jpg"><h3 class="hometitle">Joker</h3></a></div>
+							<div class="swiper-slide"><a href="https://storage.googleapis.com/iron-fountain-266419.appspot.com/oLNryN53dLx.mp4"><img src="images/spi.jpg"><h3 class="hometitle">Spider-Man Lejos de Casa</h3></a></div>
+							<div class="swiper-slide"><a href="https://storage.googleapis.com/omega-pivot-269518.appspot.com/cv0848228lt.mp4"><img src="images/hgf.jpg"><h3 class="hometitle">Los vengadores</h3></a></div>
+							<div class="swiper-slide"><a href="https://storage.googleapis.com/iron-fountain-266419.appspot.com/DA4j9n4PKJG-storage.mp4"><img src="images/tory.jpg"><h3 class="hometitle">Toy Story 4</h3></a></div>
+							<div class="swiper-slide"><a href="https://storage.googleapis.com/iron-fountain-266419.appspot.com/l3AOl8LKNjr.mp4"><img src="images/1.jpg"><h3 class="hometitle">El glorioso caos de la vida</h3></a></div>
+							<div class="swiper-slide"><a href="https://storage.googleapis.com/iron-fountain-266419.appspot.com/7beQ3vxGxbr-storage.mp4"><img src="images/zzz.jpg"><h3 class="hometitle">Guerra Mundial Z</h3></a></div>
+							<div class="swiper-slide"><a href="https://storage.googleapis.com/iron-fountain-266419.appspot.com/oZob6ERBEzO.mp4"><img src="images/ww.jpg"><h3 class="hometitle">Selfie Dad</h3></a></div>
+							<div class="swiper-slide"><a href="https://storage.googleapis.com/iron-fountain-266419.appspot.com/v7084n3pO7A.mp4"><img src="images/ee.jpg"><h3 class="hometitle">2 Minutes of Fame</h3></a></div>
+							<div class="swiper-slide"><a href="https://storage.googleapis.com/iron-fountain-266419.appspot.com/8ragVy8QMlq.mp4"><img src="images/cc.jpg"><h3 class="hometitle">Fonzo</h3></a></div>
+							<div class="swiper-slide"><a href="https://storage.googleapis.com/iron-fountain-266419.appspot.com/7yYkMvzEM4l.mp4"><img src="images/b.jpg"><h3 class="hometitle">La bala perdida</h3></a></div>
+							<div class="swiper-slide"><a href="https://storage.googleapis.com/iron-fountain-266419.appspot.com/bzDdP6rpvzw.mp4"><img src="images/v.jpg"><h3 class="hometitle">Force of Nature</h3></a></div>
+							<div class="swiper-slide"><a href="https://storage.googleapis.com/iron-fountain-266419.appspot.com/Oom4R6yB0Zj.mp4"><img src="images/n.jpg"><h3 class="hometitle">Sniper: Assassin’s End</h3></a></div>
+							<div class="swiper-slide"><a href="https://storage.googleapis.com/iron-fountain-266419.appspot.com/Zgn5zpOXn7n.mp4"><img src="images/r.jpg"><h3 class="hometitle">Infamous</h3></a></div>
+							<div class="swiper-slide"><a href="https://storage.googleapis.com/iron-fountain-266419.appspot.com/Kdnl8ogmpya.mp4"><img src="images/u.jpg"><h3 class="hometitle">Da 5 Bloods: Hermanos de armas</h3></a></div>
+							<div class="swiper-slide"><a href="https://storage.googleapis.com/iron-fountain-266419.appspot.com/51oLqElBGKy.mp4"><img src="images/t.jpg"><h3 class="hometitle">You Should Have Left</h3></a></div>
+
+							<div class="swiper-slide"><a href="language.html"><img src="img/others.png"></a></div>
+						</div>
+						<div class="nextdirection recent-next"><img src="img/right-arrow.svg"> </div>
+						<div class="leftdirection recent-prev"><img src="img/left-arrow.svg"> </div>
+					</div>
+				</div>
+			</section>
+
+			<section class="panel">
+				<h2>Peliculas mas Vistas</h2>
+				<div class="mostslider">
+					<div class="swiper-container">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide"><a href="https://storage.googleapis.com/iron-fountain-266419.appspot.com/458ze6r9kVL.mp4"><img src="images/ñl.jpg"><h3 class="hometitle">Creed. La leyenda de Rocky</h3></a></div>
+							<div class="swiper-slide"><a href="https://storage.googleapis.com/omega-pivot-269518.appspot.com/tt1727824_LAT_HD.mp4"><img src="images/y.jpg"><h3 class="hometitle">Bohemian Rhapsody: La historia de Freddie Mercury</h3></a></div>
+							<div class="swiper-slide"><a href="https://storage.googleapis.com/omega-pivot-269518.appspot.com/tt6146586_LAT_HD_V2.mp4"><img src="images/38.jpg"><h3 class="hometitle">John Wick 3: Parabellum</h3></a></div>
+							<div class="swiper-slide"><a href="https://storage.googleapis.com/iron-fountain-266419.appspot.com/7VdxWwxJPV0.mp4"><img src="images/bn.jpg"><h3 class="hometitle">Los Ilusionistas 2</h3></a></div>
+							<div class="swiper-slide"><a href="https://storage.googleapis.com/iron-fountain-266419.appspot.com/MGpAb5m0N96.mp4"><img src="images/xxc.jpg"><h3 class="hometitle">Mi Villano Favorito 3</h3></a></div>
+							<div class="swiper-slide"><a href="https://storage.googleapis.com/emerald-entity-265717.appspot.com/tt7349950_LAT_HD.mp4"><img src="images/it.jpg"><h3 class="hometitle">It: Capítulo 2</h3></a></div>
+							<div class="swiper-slide"><a href="https://storage.googleapis.com/iron-fountain-266419.appspot.com/3Zr2GRk98Z2.mp4"><img src="images/j.jpg"><h3 class="hometitle">Sonic. La película</h3></a></div>
+							<div class="swiper-slide"><a href="https://storage.googleapis.com/omega-pivot-269518.appspot.com/tt1477834_LAT_HD.mp4"><img src="images/c.jpg"><h3 class="hometitle">Aquaman</h3></a></div>
+							<div class="swiper-slide"><a href="https://storage.googleapis.com/iron-fountain-266419.appspot.com/D914kRe2JvW.mp4"><img src="images/df.jpg"><h3 class="hometitle">Alien: Covenant</h3></a></div>
+							<div class="swiper-slide"><a href="https://storage.googleapis.com/omega-pivot-269518.appspot.com/cv2380307ltv6.mp4"><img src="images/co.jpg"><h3 class="hometitle">Coco</h3></a></div>
+							<div class="swiper-slide"><a href="https://storage.googleapis.com/iron-fountain-266419.appspot.com/mXly0r5OpQr.mp4"><img src="images/as.jpg"><h3 class="hometitle">Mascotas</h3></a></div>
+							<div class="swiper-slide"><a href="https://storage.googleapis.com/iron-fountain-266419.appspot.com/yZQy3nYMQZG.mp4"><img src="images/f.jpg"><h3 class="hometitle">After. Aquí empieza todo</h3></a></div>
+							<div class="swiper-slide"><a href="https://storage.googleapis.com/omega-pivot-269518.appspot.com/tt5463162_LAT_HD.mp4"><img src="images/to.jpg"><h3 class="hometitle">Deadpool 2</h3></a></div>
+							<div class="swiper-slide"><a href="https://storage.googleapis.com/omega-pivot-269518.appspot.com/tt4633694_LAT_HD.mp4"><img src="images/un.jpg"><h3 class="hometitle">Spider-Man: Un Nuevo Universo</h3></a></div>
+							<div class="swiper-slide"><a href="https://storage.googleapis.com/iron-fountain-266419.appspot.com/DL4vb7q1dYl.mp4"><img src="images/el.jpg"><h3 class="hometitle">Cincuenta sombras liberadast</h3></a></div>
+							<div class="swiper-slide"><a href="https://storage.googleapis.com/omega-pivot-269518.appspot.com/tt5848272_LAT_HD_REV_2.mp4"><img src="images/h.jpg"><h3 class="hometitle">Wifi Ralph</h3></a></div>
+
+							<div class="swiper-slide"><a href="language.html"><img src="img/others.png"></a></div>
+						</div>
+						<div class="nextdirection most-next"><img src="img/right-arrow.svg"> </div>
+						<div class="leftdirection most-prev"><img src="img/left-arrow.svg"> </div>
+						<!-- Add Pagination -->
+					</div>
+				</div>
+			</section>
+
+			<section class="panel">
+				<h2>Las mas Valoradas</h2>
+				<div class="topslider">
+					<div class="swiper-container">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide"><a href="https://storage.googleapis.com/iron-fountain-266419.appspot.com/5P4QxK2Go6Y-storage.mp4"><img src="images/tc.jpg"><h3 class="hometitle">Llámame por tu nombre</h3></a></div>
+							<div class="swiper-slide"><a href="https://storage.googleapis.com/emerald-entity-265717.appspot.com/tt6806448_LAT_HD.mp4"><img src="images/dc.jpg"><h3 class="hometitle">Fast & Furious: Hobbs & Shaw</h3></a></div>
+							<div class="swiper-slide"><a href="https://storage.googleapis.com/omega-pivot-269518.appspot.com/tt5884052_LAT_HD.mp4"><img src="images/pi.jpg"><h3 class="hometitle">Pokémon Detective Pikachu</h3></a></div>
+							<div class="swiper-slide"><a href="https://storage.googleapis.com/omega-pivot-269518.appspot.com/tt3741700_LAT_HD.mp4"><img src="images/jl.jpg"><h3 class="hometitle">Godzilla: Rey de los monstruos</h3></a></div>
+							<div class="swiper-slide"><a href="https://storage.googleapis.com/omega-pivot-269518.appspot.com/tt3501632_LAT_HD.mp4"><img src="images/ot.jpg"><h3 class="hometitle">Thor: Ragnarok</h3></a></div>
+							<div class="swiper-slide"><a href="https://storage.googleapis.com/omega-pivot-269518.appspot.com/tt6565702_LAT_HD_V2.mp4"><img src="images/rd.jpg"><h3 class="hometitle">X-Men: Dark Phoenix</h3></a></div>
+							<div class="swiper-slide"><a href="https://storage.googleapis.com/iron-fountain-266419.appspot.com/8ragVy8QMlq.mp4"><img src="images/ve.jpg"><h3 class="hometitle">Venom</h3></a></div>
+							<div class="swiper-slide"><a href="https://storage.googleapis.com/iron-fountain-266419.appspot.com/AqBOvW7PdNQ-storage.mp4"><img src="images/hg.jpg"><h3 class="hometitle">Cómo entrenar a tu dragón 3</h3></a></div>
+							<div class="swiper-slide"><a href="https://storage.googleapis.com/iron-fountain-266419.appspot.com/VvQVAL3xOpr-storage.mp4"><img src="images/bb.jpg"><h3 class="hometitle">Men in black: Internacional</h3></a></div>
+							<div class="swiper-slide"><a href="https://storage.googleapis.com/iron-fountain-266419.appspot.com/RE91m4R9AEz-storage.mp4"><img src="images/zy.jpg"><h3 class="hometitle">Apocalypto</h3></a></div>
+							<div class="swiper-slide"><a href="https://storage.googleapis.com/iron-fountain-266419.appspot.com/rPjrKXOZ3PN.mp4"><img src="images/sv.jpg"><h3 class="hometitle">Érase una vez en Hollywood</h3></a></div>
+							<div class="swiper-slide"><a href="https://storage.googleapis.com/omega-pivot-269518.appspot.com/tt6472976_LAT_HD.mp4"><img src="images/kr.jpg"><h3 class="hometitle">A dos metros de ti</h3></a></div>
+							<div class="swiper-slide"><a href="https://storage.googleapis.com/iron-fountain-266419.appspot.com/l2OAYLDVD8D.mp4"><img src="images/hh.jpg"><h3 class="hometitle">It (Eso)</h3></a></div>
+							<div class="swiper-slide"><a href="https://storage.googleapis.com/omega-pivot-269518.appspot.com/tt4425200_LAT_HD.mp4"><img src="images/bv.jpg"><h3 class="hometitle">John Wick 2: Pacto de sangre</h3></a></div>
+							<div class="swiper-slide"><a href="https://storage.googleapis.com/iron-fountain-266419.appspot.com/eA6GDB9aLV1-storage.mp4"><img src="images/ge.jpg"><h3 class="hometitle">Géminis</h3></a></div>
+							<div class="swiper-slide"><a href="https://storage.googleapis.com/omega-pivot-269518.appspot.com/tt5095030_LAT_HD.mp4"><img src="images/aa.jpg"><h3 class="hometitle">Ant-Man and the Wasp (El Hombre Hormiga y la Avispa)</h3></a></div>
+
+							<div class="swiper-slide"><a href="language.html"><img src="img/others.png"></a></div>
+						</div>
+						<div class="nextdirection top-next"><img src="img/right-arrow.svg"> </div>
+						<div class="leftdirection top-prev"><img src="img/left-arrow.svg"> </div>
+						<!-- Add Pagination -->
+					</div>
+				</div>
+			</section>
+
+			
+		</main>
+
+		<footer class="footer">
+			<div class="tags">
+				<ul>
+					<li><a href="https://www.facebook.com/DELTA-BOSS-109932894087631/" target="_blank">Facebook</a></li>
+					<li><a href="https://mobile.twitter.com/DeltaBoss6" target="_blank">Twitter</a></li>
+					<li><a href="https://wa.me/51936863228" target="_blank">Whatsapp</a></li>
+					<li><a href="https://www.instagram.com/the.delta.boss?r=nametag" target="_blank">Instagram</a></li>
+					<li><a href="https://www.youtube.com/channel/UCDIedXV8oUocdNWiTe29LKQ" target="_blank">Youtube</a></li>
+				</ul>
+			</div>
+			<div class="footermenu">
+				<ul>
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="https://wa.me/51936863228">Contactanos</a></li>
+					<li><a href="terms.html">Terminos y Condiciones THEDELTABOSS</a></li>
+				</ul>
+				<div class="copyright"><p>Copyright &copy The Delta Boss</p></div>
+			</div>
+			
+
+		</footer>
+
+		<!-- Swiper JS -->
+		<script src="js/swiper.min.js"></script>
+
+		<!-- Initialize Swiper -->
+		<script>
+			$(document).ready(function(){
+
+
+				var swiper = new Swiper('.homeslider > .swiper-container', {
+					pagination: '.swiper-pagination',
+					paginationClickable: true,
+					preventClicks:false,
+					preventClicksPropagation:false,
+					effect:'fade',
+					breakpoints: {
+						320: {
+							height:200
+						},
+
+						480: {
+							height:300
+						},
+
+						768: {
+							height:400
+						},
+						1024: {
+							height:500
+						}
+					}
+				});
+
+				var recentswiper = new Swiper('.recentslider > .swiper-container', {
+					nextButton: '.recent-next',
+					prevButton: '.recent-prev',
+					slidesPerView: 8,
+					paginationClickable: true,
+					preventClicks:false,
+					preventClicksPropagation:false,
+					spaceBetween: 10,
+					breakpoints: {
+						320: {
+							slidesPerView: 3,
+							spaceBetween: 5
+						},
+
+						480: {
+							slidesPerView: 3,
+							spaceBetween: 5
+						},
+
+						768: {
+							slidesPerView: 5,
+							spaceBetween: 5
+						},
+						1024: {
+							slidesPerView: 6,
+							spaceBetween: 10
+						}
+					}
+				});
+
+				var mostswiper = new Swiper('.mostslider > .swiper-container', {
+					nextButton: '.most-next',
+					prevButton: '.most-prev',
+					slidesPerView: 8,
+					paginationClickable: true,
+					preventClicks:false,
+					preventClicksPropagation:false,
+					spaceBetween: 10,
+					breakpoints: {
+						320: {
+							slidesPerView: 3,
+							spaceBetween: 5
+						},
+
+						480: {
+							slidesPerView: 3,
+							spaceBetween: 5
+						},
+
+						768: {
+							slidesPerView: 5,
+							spaceBetween: 5
+						},
+						1024: {
+							slidesPerView: 6,
+							spaceBetween: 10
+						}
+					}
+				});
+
+				var topswiper = new Swiper('.topslider > .swiper-container', {
+					nextButton: '.top-next',
+					prevButton: '.top-prev',
+					slidesPerView: 8,
+					paginationClickable: true,
+					preventClicks:false,
+					preventClicksPropagation:false,
+					spaceBetween: 10,
+					breakpoints: {
+						320: {
+							slidesPerView: 3,
+							spaceBetween: 5
+						},
+
+						480: {
+							slidesPerView: 3,
+							spaceBetween: 5
+						},
+
+						768: {
+							slidesPerView: 5,
+							spaceBetween: 5
+						},
+						1024: {
+							slidesPerView: 6,
+							spaceBetween: 10
+						}
+					}
+				});
+
+			});
+
+			
+		</script>
+
+
+	</div>
+</body>
 </html>
